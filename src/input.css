@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mint-500: oklch(0.72 0.11 178);
+  --colors-utama: #2c6e49;
+  --colors-dasar: #ffc9b9;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.gradient-hijau {
+  /* background: linear-gradient(
+    90deg,
+    rgba(149, 213, 178, 0) 0%,
+    rgba(44, 110, 73, 1) 95%
+  ); */
+  background: linear-gradient(90deg, #95d5b2 0%, #2c6e49 100%);
+}
+
+/* slider */
